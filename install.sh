@@ -18,7 +18,9 @@ echo ""
 echo "ok stuff obliterated"
 read -p "press enter to start with next step (installing stuff)"
 sudo apt install plasma-desktop firefox mintdrivers mintupdate nemo-fileroller mintchat mint-meta-core mint-artwork thunderbird konsole spectacle
-echo "yay installed"
+echo "yay it installed"
+echo "delete some mid"
+sudo apt purge ubuntu-system-adjustments plasma-discover
 echo "now to fix mintupdate"
 gsettings set com.linuxmint.updates show-cinnamon-updates false
 echo ""
