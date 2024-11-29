@@ -21,6 +21,9 @@ sudo apt install plasma-desktop firefox mintdrivers mintupdate nemo-fileroller m
 echo "yay installed"
 echo "now to fix mintupdate"
 gsettings set com.linuxmint.updates show-cinnamon-updates false
+echo ""
+read -p "press enter to start with next step (autoremove)"
+sudo apt autoremove
 echo "done!"
 echo ""
 echo "it should be done now and in a working state hopefully"
